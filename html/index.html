@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" type="image/png" href="../../../inc/img/favicon.png">
+        <link rel="icon" type="image/png" href="../../../inc/img/favicon.png">
+        <link rel="stylesheet" href="../../../inc/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../inc/stripchart.css">
+        <link rel="stylesheet" href="css/app.css">
+        <script src="../../../inc/jquery.min.js"></script>
+        <script src="../../../inc/jquery.widget.js"></script>
+        <script src="../../../inc/jquery.stripchart.js"></script>
+        <script src="../../../inc/stripchart.js"></script>
+        <script src="js/jquery.switchports.js"></script>
+        <script src="../../../inc/popper.min.js"></script>
+        <script src="../../../inc/bootstrap.min.js"></script>
+        <script src="js/app.js"></script>
+        <title>Live Switch Dashboard</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark mb-3" style="background-color: #336;">
+            <a class="navbar-brand" href="#">
+                <img src="../../../inc/img/inmon.svg" height="30" class="d-inline-block align-top">
+                sFlow-RT: <span id="title">Live Switch Dashboard</span>
+            </a>
+        </nav>
+        <main class="container-fluid" role="main">
+            <div class="card mb-3">
+                <div class="card-header">Switch Port Traffic Flows</div>
+                <div class="card-body">
+                    <div id="switch-ports" class="switchports"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">Traffic Trend</div>
+                <div class="card-body">
+                    <div id="traffic-trend" class="trend"></div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer page-footer border-top mt-3">
+            <div class="footer-copyright text-center py-2">
+                <small class="text-muted">Copyright &copy; 2026 InMon Corp. ALL RIGHTS RESERVED</small>
+            </div>
+        </footer>
+
+    </body>
+</html>
+
